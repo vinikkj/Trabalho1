@@ -1,0 +1,33 @@
+var
+idade, peso, dosagem: real
+gotas: inteiro
+
+escreva("Informe a idade do paciente: ")
+leia(idade)
+
+escreva("Informe o peso do paciente: ")
+leia(peso)
+
+se idade >= 12 entao
+se peso >= 60 entao
+dosagem <- 1000.0
+senao
+dosagem <- 875.0
+fimse
+senao
+se peso >= 5 e peso <= 9 entao
+dosagem <- 125.0
+senao se peso >= 9.1 e peso <= 16 entao
+dosagem <- 250.0
+senao se peso >= 16.1 e peso <= 24 entao
+dosagem <- 375.0
+senao se peso >= 24.1 e peso <= 30 entao
+dosagem <- 500.0
+senao
+dosagem <- 750.0
+fimse
+fimse
+
+gotas <- (inteiro) ((dosagem * 20) / 500)
+
+escreva("Receita: Tomar ", dosagem, "mg, ", gotas, " gotas por dose.")

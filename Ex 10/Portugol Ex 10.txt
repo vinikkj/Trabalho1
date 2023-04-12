@@ -1,0 +1,8 @@
+Algoritmo Numero_Intervalo
+inteiro numero
+
+para numero de -100 ate 300 faca
+escreva(numero) // imprime o número atual
+fimpara
+
+FimAlgoritmo

@@ -1,0 +1,27 @@
+Algoritmo Fetuccine
+
+var
+a, b, c, i: inteiro
+
+Inicio
+
+Escreva("Digite os dois primeiros termos da serie de Fetuccine: ")
+Leia(a, b)
+
+Escreva("Os 10 primeiros termos da serie sao:")
+Escreva(a, " - Termo do Usuario")
+Escreva(b, " - Termo do Usuario")
+
+Para i de 3 ate 10 faca:
+Se i mod 2 = 1 entao
+c <- a + b
+Escreva(a, " + ", b, " = ", c)
+Senao
+c <- b - a
+Escreva(b, " - ", a, " = ", c)
+FimSe
+a <- b
+b <- c
+FimPara
+
+FimAlgoritmo

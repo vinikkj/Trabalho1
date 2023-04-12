@@ -1,0 +1,57 @@
+Algoritmo: Análise de dados demográficos
+
+Declarações:
+
+sexo, olhos, cabelos: caracteres
+idade: inteiro
+maior, feminino, femininovl: inteiros
+Início
+maior <- 0
+feminino <- 0
+femininovl <- 0
+
+Faça:
+Escreva "Digite o sexo (M/F): "
+Leia sexo
+
+Se sexo = 'M' ou sexo = 'F' Então
+  Escreva "Digite a cor dos olhos (A/V/C): "
+  Leia olhos
+  
+  Se olhos = 'A' ou olhos = 'V' ou olhos = 'C' Então
+    Escreva "Digite a cor dos cabelos (L/C/P): "
+    Leia cabelos
+    
+    Se cabelos = 'L' ou cabelos = 'C' ou cabelos = 'P' Então
+      Escreva "Digite a idade (-1 para encerrar): "
+      Leia idade
+      
+      Se idade > 0 Então
+      
+        Se idade > maior Então
+          maior <- idade
+        Fim Se
+        
+        Se sexo = 'F' Então
+          feminino <- feminino + 1
+          
+          Se olhos = 'V' e cabelos = 'L' e idade >= 18 e idade <= 35 Então
+            femininovl <- femininovl + 1
+          Fim Se
+        Fim Se
+      Fim Se
+    Fim Se
+  Fim Se
+Fim Se
+Enquanto idade != -1
+
+Escreva "O habitante mais velho tem ", maior, " anos."
+
+Se feminino > 0 Então
+percentual <- 100.0 * femininovl / feminino
+Escreva "A percentagem de mulheres com olhos verdes, cabelos louros e idade entre 18 e 35 anos é ", percentual, "%."
+Senão
+Escreva "Nenhum habitante do sexo feminino foi registrado."
+Fim Se
+
+Fim.

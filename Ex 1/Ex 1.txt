@@ -1,0 +1,8 @@
+Um algoritmo é uma sequência ordenada de instruções finitas e precisas que 
+são projetadas para resolver um problema ou realizar uma tarefa específica. 
+Em outras palavras, é um conjunto de passos bem definidos que podem ser 
+seguidos para executar uma determinada função ou processo. Os algoritmos 
+são usados em muitas áreas, incluindo ciência da computação, matemática, 
+engenharia e outras disciplinas, para resolver problemas complexos ou 
+automatizar tarefas repetitivas. Eles são a base de muitos programas de 
+computador e sistemas automatizados modernos. 
