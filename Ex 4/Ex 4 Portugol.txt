@@ -1,0 +1,33 @@
+QUESTÃO 4
+                  programa
+{
+	
+	funcao inicio()
+	{
+		real x1,x2,y1,y2,x3,y3,d
+
+		escreva("Calcular Distância entre 2 Pontos\n\n")
+		
+		escreva ("Digite o valor de x1: ")
+		leia (x1)
+		
+		escreva ("Digite o valor de x2: ")
+		leia (y1)
+		
+		escreva ("Digite o valor de y1: ")
+		leia (x2)
+		
+		escreva ("Digite o valor de y2: ")
+		leia (y2)
+
+		escreva ("Digite o valor de y1: ")
+		leia (x3)
+		
+		escreva ("Digite o valor de y2: ")
+		leia (y3)
+		
+		d = (x1-y1)*2+(x2-y2)*2+(x3-y3)*2
+		
+		escreva ("A distância entre os três pontos eh: ",d)
+	}
+}

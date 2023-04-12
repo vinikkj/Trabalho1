@@ -1,0 +1,16 @@
+QUESTÃO 5
+                  programa
+{
+	
+	funcao inicio()
+	{
+		inteiro c,f
+		
+		escreva("Digite a temperatura em Fahrenheit: ")
+		leia(f)
+
+		c = 5 * (f-32)/9
+
+		escreva("A temperatura em Celsius é ", c)
+	}
+}
