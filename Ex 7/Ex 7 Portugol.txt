@@ -1,0 +1,23 @@
+QUESTÃO 7
+                  programa
+{
+	
+	funcao inicio()
+	{
+		 real salario,prestacao,porcento
+
+
+		 escreva("Digite seu salário bruto: ")
+		 leia(salario)
+		 escreva("Digite o valor da prestação: ")
+		 leia(prestacao)
+		 porcento = salario * 0.30
+
+			se (prestacao <= porcento)
+			{
+			 escreva("O empréstimo pode ser concedido!\n")
+			}senao{
+			 escreva("O empréstimo não pode ser concedido!\n")
+				 }
+	}
+}
